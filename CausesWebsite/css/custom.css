@@ -1,0 +1,242 @@
+
+
+@font-face {
+	font-family: 'fontr';
+	src: url(fontr.ttf);
+}
+
+@font-face {
+	font-family: 'vegur';
+	src: url(vegur.otf);
+}
+
+body{
+	font-family: 'vegur';
+	color:white;
+}
+#nav{ 
+	background-color: #FFFFFF; 
+	position: fixed; 
+	width: 100%; 
+	top: 0; 
+	text-align: center;
+}
+
+#nav ul{ 
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0;
+	font-family: 'fontr';
+
+}
+#nav ul li{ 
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'fontr';
+	font-stretch:normal;
+	letter-spacing:3px;
+	color: #a8a8a8; 
+	font-stretch: normal;
+	padding: 8px;
+	}
+
+
+#nav ul li a,visited{ 
+	color: #a8a8a8; 
+	display: block; 
+	padding: 8px; 
+	text-decoration: none; 
+	}
+
+
+#nav ul li:hover{
+	background: black;
+	cursor:pointer;
+		}
+
+#mainContent, #homelogo, #contactPage, #foodPage{
+	margin:auto;
+	width:80%;
+	margin-top:75px;
+	}
+
+#gallery{
+	margin:auto;
+	width:80%;
+	}
+
+#mapPage{
+	margin:auto;
+	width:100%;
+	margin-top:0px;
+	}
+
+.mapLeft{
+	margin:auto;
+	width:100%;
+	margin-top:40px;
+	}
+
+.mapRight{
+	margin:auto;
+	width:100%;
+	margin-top:0px;
+	}
+
+h1{ 
+	font-family: 'fontr';
+	font-size: 50px;
+	font-weight:300;
+	font-stretch:normal;
+	letter-spacing:5px;
+	color: white; 
+	letter-spacing:5px;
+	text-align:center;
+	padding: 3px;
+	}
+
+h2 {
+	font-family: 'vegur', "HelveticaNeueLight", "HelveticaNeue-Light", 
+	"Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 
+	'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", 
+	sans-serif; 
+	font-size:36px;
+	font-weight:300; 
+	font-stretch:normal;
+	letter-spacing:4px;
+	color: white;
+	padding:5px;
+}
+
+h3 {
+	font-family: 'vegur', "HelveticaNeueLight", "HelveticaNeue-Light", 
+	"Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 
+	'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", 
+	sans-serif; 
+	font-size:24px;
+	font-weight:300; 
+	font-stretch:normal;
+	letter-spacing:3px;
+	color: white;
+	padding:5px;
+
+}
+
+h4 {
+	font-family: 'vegur', "HelveticaNeueLight", "HelveticaNeue-Light", 
+	"Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 
+	'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", 
+	sans-serif; 
+	font-size:18px;
+	font-weight:300; 
+	font-stretch:normal;
+	letter-spacing:3px;
+	color: white;
+	padding:5px;
+}
+
+p{
+	font-family: 'vegur', "HelveticaNeueLight", "HelveticaNeue-Light", 
+	"Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 
+	'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", 
+	sans-serif; font-weight:300; font-stretch:normal;
+	letter-spacing:2px;
+	color: black;	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: white;
+	text-align:left;
+	padding:5px;
+}
+
+div.foodimg {
+            margin: 0px;
+            padding: 5px;
+            height: auto;
+            width: auto;
+            float: left;
+            text-align: center;
+}
+
+div.foodimg img {
+            display: inline;
+            margin: 5px;
+}
+
+div.fooddesc {
+            width: 300px;
+            margin: 0px;
+            font-family: 'vegur', "HelveticaNeueLight", "HelveticaNeue-Light", 
+            "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 
+            'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", 
+            sans-serif; font-weight:300; font-stretch:normal;
+            letter-spacing:2px;
+            color: black;   font-size: 12px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            color: white;
+            text-align:center;
+}
+
+.mapLeft {
+            width: 50%;
+            height:auto;
+            background: #EC008C;
+            display:inline-block;
+            z-index: -1;
+            float: left;
+}
+
+.mapRight {
+            width:50%;
+            height:auto;
+            background: #EC008C;
+            display:inline-block;
+            z-index: -1;
+            letter-spacing: 2px;
+            text-align: center;
+            color: white;
+            padding-top: 140px;
+}
+
+#contact-area {
+	height:200px;
+}
+
+        
+		.left {
+			width:25%;
+			height:auto;
+			display:inline-block;
+			z-index: -1;
+			vertical-align:top;
+			padding:30px;
+		}
+
+        .center {
+            width:25%;
+            height:auto;
+            display:inline-block;
+            z-index: -1;
+            vertical-align:top;
+            padding:30px;
+        }
+        .right {
+            width:25%;
+            height: auto;
+            display:inline-block;
+            z-index: -1;
+            vertical-align:top;
+            padding:30px;
+        }
+
+.Subjectbox {
+	padding: 20px 10px; 
+	line-height: 28px; }{
+    height: 50%;
+    width: 50%;
+    box-height: 50px;
+}
+

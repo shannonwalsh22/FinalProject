@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/custom.css">
+	<script src="js/digitalClock.js"></script>
+</head>
+
+
+<body>
+    <div id="startGame"> START ! </div>
+	<div id="clock">
+		<span id="h"></span> : <span id="m"></span> : <span id="s"></span>
+	</div>
+
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='reviews.html'><span>Reviews</span></a>
+      <ul>
+         <li><a href='product.html'><span>Comedy</span></a></li>
+         <li><a href='#'><span>Drama</span></a></li>
+         <li class='last'><a href='#'><span>Other</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='blog.html'><span>Charlie's Blog</span></a>
+      <ul>
+         <li><a href='#'><span>Company</span></a></li>
+         <li class='last'><a href='#'><span>Contact</span></a></li>
+      </ul>
+   </li>
+   <li class='last'><a href='mustreads.html'><span>Must-Reads</span></a></li>
+   </ul>
+            </div></br></br></br>
+               </div></br></br></br>
+
+
+   <div id="time">
+         <h4>it is 
+         <script type="text/javascript">
+         <!--
+         var currentTime = new Date()
+         var hours = currentTime.getHours()
+         var minutes = currentTime.getMinutes()
+         if (minutes < 10){
+         minutes = "0" + minutes
+         }
+         document.write(hours + ":" + minutes + " ")
+         if(hours > 11){
+         document.write("PM")
+         } else {
+         document.write("AM")
+         }
+         //-->
+         </script>
+         </h4>
+   </div>
+
+
+
+
+
+</body>
+</html>

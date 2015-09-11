@@ -1,0 +1,131 @@
+body {
+	font: black;
+	padding: 0;
+	margin: auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	width:100%;
+	background: orange;
+
+}
+
+#container {
+	margin: 22px;
+	width: 80%;
+	<!--960 is default-->
+	margin: 0px auto; 
+	padding-left: 40px;
+	padding-right: 40px;
+	height: 100%;
+	<!--means 100% of viewer's viewing sight-->
+}
+
+#banner {
+	height:100px;
+	padding-top: 15px;
+}
+
+#title {
+	font-size: 70pt;
+	text-align: center;
+	font: black;
+}
+
+nav {
+	background-image: url("http://images.fineartamerica.com/images-medium-large-5/modern-dark-abstract-art-smeared-makeup-by-kredart-serg-wiaderny.jpg");
+	opacity:.9;
+	background-repeat: repeat;
+	color: white;
+	border-radius: 25px;
+	border: solid 3px black;
+	height: 48px;
+	margin-top: 20px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+	font: white;
+	padding-bottom: 30px;
+
+}
+
+nav ul li {
+	display: inline-block;
+	width: 23.8%;
+	text-align: center;
+	height: 20px;
+	font-size:14pt;
+	font: white;
+	padding-top: 0px;
+}
+
+#banner {
+	padding-bottom: 2px;
+
+}
+
+.socialmediabar {
+		position: fixed;
+		width: 3%;
+		margin: 4px;
+		height: 12%;
+		left: 30px;
+		margin-top: 50px;
+		background: white;
+		padding: 8px;
+			}
+
+
+nav ul li:hover{
+	background: #9E989B;
+	color: white;
+	cursor: pointer;
+}
+
+nav ul a {
+	color: white;
+}
+
+nav ul li a: hover {
+	color: white;
+}
+
+#sidebar {
+	float: left;
+	position: relative;
+	margin: 20px;
+	left: 50px;
+	height: 100%;
+	width: 40%;
+}
+
+.home {
+	left: 100px;
+
+}
+#mainArea {
+	float: left;
+	position: relative;
+	background: #f2f2f2;
+	border: 1px solid #e6e6e6;
+	margin: 20px;
+	left: 40px;
+	height: 100%;
+	width: 40%;
+		}
+
+p {
+	padding-left: 5px; 
+	padding-right: 5px;
+}
+
+footer {
+   text-align: center;
+   position: absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+}
+
+
+

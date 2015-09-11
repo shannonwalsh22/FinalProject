@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Solar System</title>
+      <link rel="stylesheet" href="css/custom.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <script src="js/custom.js"></script>
+ 
+
+</head>
+<body>
+
+	<div id="title">The Solar System in Motion</div>
+	<div id="icons">
+		<a href="https://twitter.com/NASA"><img src="images/twitter.png" id="twitter" width="35px" target="_blank"/></a>
+		<a href="https://www.youtube.com/watch?v=LgzM-uV81YE"><img src="images/youtube.png" id="youtube" width="35px" /></a>
+		<a href="https://www.facebook.com/NASA?fref=ts"><img src="images/facebook.png" id="facebook" width="35px" /></a>
+	</div>
+
+	<div id="planets">
+	<ul>
+		<li id="smallmercury">Mercury</li>
+		<li id="smallvenus">Venus</li>
+		<li id="smallearth">Earth</li>
+		<li id="smallmars">Mars</li>
+		<li id="smalljupiter">Jupiter</li>
+		<li id="smallsaturn">Saturn</li>
+		<li id="smalluranus">Uranus</li>
+		<li id="smallneptune">Neptune</li>
+		<li id="smallpluto">Pluto</li>
+	</ul>
+</div>
+
+	<button id="button"> Click for Animation </button>
+	
+	<div id="sundiv" style="display:none">
+		<div id="sun">
+			<img src="images/sun.png" id="sunpicture"/>
+		</div>
+	</div>
+
+
+<div id="main" style="display:none;"> <!---main--> 
+	<div id="mercurydiv" class="hide">
+		<div id="mercuryline"></div>
+		<div id="mercury"></div>
+	</div>
+
+	<div id="venusdiv" class="hide">
+		<div id="venusline"></div>
+		<div id="venus"></div>
+	</div>
+
+
+	<div id="earthdiv" class="hide">
+		<div id="earthline"></div>
+		<div id="earth"></div>
+	</div>
+
+
+	<div id="marsdiv" class="hide">
+		<div id="marsline"></div>
+		<div id="mars"></div>
+	</div>
+
+		
+	<div id="jupiterdiv"  class="hide">
+		<div id="jupiterline"></div>
+		<div id="jupiter"></div>
+	</div>
+
+
+	<div id="saturndiv" class="hide">
+		<div id="saturnline"></div>
+		<div id="saturn"></div>
+	</div>
+
+
+	<div id="uranusdiv" class="hide">
+		<div id="uranusline"></div>
+		<div id="uranus"></div>
+	</div>
+
+
+	<div id="neptunediv" class="hide">
+		<div id="neptuneline"></div>
+		<div id="neptune"></div>
+	</div>
+
+
+	<div id="plutodiv" class="hide">
+		<div id="plutoline"></div>
+		<div id="pluto"></div>
+	</div>
+
+</div> <!---main--> 
+
+		<div id="factsofmercury" class="hide">
+			<h2>Mercury</h2>
+			<ul>
+				<li><u>Mass</u>: 330,104,000,000,000 billion kg</li>
+				<li><u>Equatorial Diameter</u>: 4,879</li>
+				<li><u>Polar Diameter</u>: 4,879</li>
+				<li><u>Equatorial Circumference</u>: 15,329 km</li>
+				<li><u>Known Moons</u>: none</li>
+				<li><u>Orbit Distance</u>: 57,909,227 km</li>
+				<li><u>Surface Temperature</u>: -173 to 427 celsius</li>
+				<li><u>First Record</u>: 14th century BC</li>
+				<li>A year on Mercury is just 88 days long</li>
+				<li><u>Recorded By</u>: Assyrian astronomers</li>
+			</ul>
+		</div></center>
+
+		<div id="factsofvenus" class="hide">
+				<h2>Venus</h2>
+				<ul>
+					<li><u>Mass</u>: 4,867,320,000,000,000 billion kg</li>
+					<li><u>Equatorial Diameter</u>: 12,104 km</li>
+					<li><u>Polar Diameter</u>: 12,104 km</li>
+					<li><u>Equatorial Circumference</u>: 38,025 km</li>
+					<li><u>Known Moons</u>: none</li>
+					<li><u>Orbit Distance</u>: 108,209,475 km </li>
+					<li><u>Surface Temperature</u>: 462 celsius</li>
+					<li><u>First Record</u>: 17th century BC</li>
+					<li>A day on Venus lasts longer than a year</li>
+					<li><u>Recorded By</u>: Babylonian astronomers</li>
+				</ul>
+		</div>
+
+		<div id="factsofearth" class="hide">
+			<h2>Earth</h2>
+			<ul>
+				<li><u>Mass</u>: 330,104,000,000,000 billion kg</li>
+				<li><u>Equatorial Diameter</u>: 4,879</li>
+				<li><u>Polar Diameter</u>: 4,879</li>
+				<li><u>Equatorial Circumference</u>: 15,329 km</li>
+				<li><u>Known Moons</u>: none</li>
+				<li><u>Orbit Distance</u>: 57,909,227 km</li>
+				<li><u>Surface Temperature</u>: -173 to 427 celsius</li>
+				<li><u>First Record</u>: 14th century BC</li>	
+			</ul>
+		</div>
+
+		<div id="factsofmars" class="hide">
+			<h2>Mars</h2>
+			<ul>
+				<li><u>Mass</u>: 3 641,693,000,000,000 billion kg </li>
+				<li><u>Equatorial Diameter</u>: 6,805</li>
+				<li><u>Polar Diameter</u>: 6,755</li>
+				<li><u>Equatorial Circumference</u>: 21,297 km</li>
+				<li><u>Known Moons</u>: 2</li>
+				<li><u>Orbit Distance</u>: 227,943,824 km  </li>
+				<li><u>Surface Temperature</u>: -87 to -5 celsius</li>
+				<li><u>First Record</u>: 2nd millennium BC </li>
+				<li><u>Recorded By</u>: Egyptian astronomers</li>
+				<li>Mars and Earth have approximately the same landmass</li>
+			</ul>
+		</div>
+
+		<div id="factsofjupiter" class="hide">
+			<h2>Jupiter</h2>
+			<ul>
+				<li><u>Mass</u>: 1,898,130,000,000,000,000 billion kg </li>
+				<li><u>Equatorial Diameter</u>: 142,984 km </li>
+				<li><u>Polar Diameter</u>: 133,709 km </li>
+				<li><u>Equatorial Circumference</u>: 439,264 km</li>
+				<li><u>Known Moons</u>: 67 </li>
+				<li><u>Orbit Distance</u>: 778,340,821 km </li>
+				<li><u>Surface Temperature</u>: -108 celsius</li>
+				<li><u>Recorded By</u>: Babylonian astronomers</li>
+				<li>Jupiter is the fourth brightest object in the solar system</li>
+			</ul>
+		</div>
+
+		<div id="factsofsaturn" class="hide">
+			<h2>Saturn</h2>
+			<ul>
+				<li><u>Mass</u>: 568,319,000,000,000,000 billion kg</li>
+				<li><u>Equatorial Diameter</u>: 120,536 km</li>
+				<li><u>Polar Diameter</u>: 108,728 km </li>
+				<li><u>Equatorial Circumference</u>: 365,882 km </li>
+				<li><u>Known Moons</u>: 62</li>
+				<li><u>Orbit Distance</u>: 1,426,666,422 km  </li>
+				<li><su>Surface Temperature</u>: -139 celsius</li>
+				<li><u>First Record</u>: 8th century BC</li>
+				<li><u>First Recorded By</u>: Assyrians</li>
+			</ul>
+		</div>
+
+		<div id="factsofuranus" class="hide">
+			<h2>Uranus</h2>
+			<ul>
+				<li><u>Mass</u>: 86,810,300,000,000,000 billion kg</li>
+				<li><u>Equatorial Diameter</u>: 51,118 km </li>
+				<li><u>Polar Diameter</u>: 49,946 km </li>
+				<li><u>Equatorial Circumference</u>: 159,354 km </li>
+				<li><u>Known Moons</u>: 27 </li>
+				<li><u>Orbit Distance</u>: 2,870,658,186 km </li>
+				<li><u>Surface Temperature</u>: -197 celsius</li>
+				<li><u>First Record</u>: March 13th 1781 </li>
+				<li><u>Discovered By</u>: William Herschel</li>
+			</ul>
+		</div>
+
+		<div id="factsofneptune" class="hide">
+			<h2>Neptune</h2>
+			<ul>
+				<li><u>Mass</u>: 102,410,000,000,000,000 billion kg </li>
+				<li><u>Equatorial Diameter</u>: 49,528 km </li>
+				<li><u>Polar Diameter</u>: 48,682 km </li>
+				<li><u>Equatorial Circumference</u>: 155,600 km </li>
+				<li><u>Known Moons</u>: 14</li>
+				<li><u>Orbit Distance</u>: 4,498,396,441 km </li>
+				<li><u>Surface Temperature</u>: -201 celsius</li>
+				<li><u>First Record</u>: 14th century BC</li>
+				<li><u>Recorded By</u>: Urbain Le Verrier & Johann Galle</li>
+				<li><u>Recorded</u>: September 23rd 1846 </li>
+			</ul>
+		</div>
+
+		<div id="factsofpluto" class="hide">
+			<h2>Pluto</h2>
+			<ul>
+				<li><u>Mass</u>:  13,050,000,000,000 billion kg </li>
+				<li><u>Diameter</u>:  2,372 km </li>
+				<li><u>Polar Diameter</u>: 4,879</li>
+				<li><u>Known Moons</u>: 5 </li>
+				<li><u>Orbit Distance</u>: 5,874,000,000 km </li>
+				<li><u>Orbit Period</u>: 246.04 Earth years </li>
+				<li><u>Surface Temperature</u>: -229 Celsius</li>
+				<li><u>First Recorded By</u>:  Clyde W. Tombaugh </li>
+				<li><u>Recorded On</u>:  18th February 1930</li>
+			</ul>
+		</div>
+
+	
+</body>
+</html>

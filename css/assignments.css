@@ -1,0 +1,126 @@
+body {
+	font-family: "Ubuntu", sans-serif;
+}
+
+@font-face {
+    font-family: 'anne';
+    src: url(anne.ttf); }
+
+@font-face {
+    font-family: 'heart';
+    src: url(heart.ttf); }
+
+button {
+	font-family: 'anne', sans-serif;
+	font-size: 20px;
+	border-radius: 30px;
+	display: block;
+	padding: 4px;
+	margin: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+button:hover
+{
+background-image:none;
+background-color:black;
+text-decoration: none;
+color: white;
+
+}
+
+#wrapper {
+	text-align: center;
+	margin-top: -30px;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+	color: black;
+}
+
+
+
+#top, #bottom, #left, #right {
+	background: white;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 25px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+p{
+  color: black; 
+  font-family: 'anne';
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 5em;
+  animation: type 1s steps(80, end); 
+}
+
+p:nth-child(2){
+  animation: type2 1s steps(80, end);
+}
+
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+#home {
+  margin-right: 50px;
+  margin-top: -80px;
+  text-align: center;
+  float: right;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
